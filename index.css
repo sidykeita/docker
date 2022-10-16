@@ -1,0 +1,146 @@
+*
+{
+    margin:0;
+    padding:0;
+}
+
+header{
+    width: 100%;
+    height: 100px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-style: italic;
+    background-color: rgb(223, 113, 220);
+}
+
+header h1 a{
+    text-decoration: none;
+    color: white;
+}
+
+nav ul{
+    width:100%;
+    height:65px;
+    display: flex;
+    justify-content:space-around;
+
+
+}
+
+.nav_color1{
+    background-color: rgb(215, 6, 187);
+    width: 33.9%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+        
+}
+
+.nav_color2{
+    background-color: rgb(215, 6, 187);
+    width: 33%;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+        
+}
+
+.nav_color3{
+    background-color: rgb(215, 6, 187);
+    width: 33%;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+ul{
+    list-style: none;
+    text-decoration: none;
+}
+
+ul li a{
+    color: white;
+    text-decoration: none;
+}
+
+ul li a:hover{
+   color: rgb(186, 16, 135);
+}
+
+section{
+    width: 100%;
+    height:60em;
+    background-color: rgb(221, 46, 75);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+#content{
+    width: 80%;
+    height:60em;
+    background-color: rgb(222, 132, 147);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+h1, h3
+{
+    text-align:center;
+}
+h3
+{
+    background-color:black;
+    color:white;
+    font-size:0.9em;
+    margin-bottom:0px;
+}
+.news p
+{
+    background-color:#CCCCCC;
+    margin-top:0px;
+}
+.news
+{
+    width:70%;
+    margin:auto;
+}
+
+a
+{
+    text-decoration: none;
+    color: blue;
+}
+
+.blog{
+    width: 100%;
+    height: 60em;
+    background-color: aqua  ;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
+
+.blog h2{
+    margin-bottom: 30px;;
+}
+
+footer{
+    width:100%;
+    height:100px;
+    background-color: gray;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-style: italic;
+
+}
+
